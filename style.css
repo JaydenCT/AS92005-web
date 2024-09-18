@@ -13,6 +13,7 @@ body {
   color: white;
   background-color: #7082a5;
   margin: 0;
+
 }
 h1 {
   font-family: 'Luckiest Guy'; 
@@ -22,7 +23,7 @@ h1 {
 }
 h2 {
   font-size: 36px; 
-  color: #e6edb4;
+  color: #eaf0c3;
   margin: 0;
 }
 
@@ -36,6 +37,13 @@ h3 {
     font-family: 'Courier Prime';
     font-size: 15px; 
     color: #404040;
+    margin: 0;
+  }
+
+  h5 {
+    font-family: 'Oooh Baby';
+    font-size: 15px; 
+    color: #ffffff;
     margin: 0;
   }
 
@@ -71,6 +79,10 @@ h3 {
 .navigation a:hover {
   color: #f1f1f1;
 }
+.navigation .active {
+  background-color: #4191c3;
+  color: #f1f1f1
+}
 
 .main-content, .related {
   margin-top: 30px;
@@ -79,6 +91,11 @@ h3 {
 }
 .featured {
   width: 710px; 
+  margin: 5px auto;
+}
+
+.photo {
+  width: 400px; 
   margin: 5px auto;
 }
 
