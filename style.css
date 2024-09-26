@@ -5,25 +5,28 @@ h1 {
 @import url('https://fonts.googleapis.com/css?family=Courier+Prime');
 @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
 @import url('https://fonts.googleapis.com/css?family=Oooh+Baby');
+@import url('https://fonts.googleapis.com/css?family=Manrope');
+
 
 body {
   width: 800px;
   padding: 30px;
   font-family: 'Courier Prime';
   color: white;
-  background-color: #7082a5;
+  background-color: #83a1b5;
   margin: 0;
 
 }
 h1 {
-  font-family: 'Luckiest Guy'; 
+  /*font-family: 'Luckiest Guy'; */
+  font-family: 'Manrope', Arial;
   font-size: 68px;
-  color: rgb(120, 235, 253);
+  color: #39591A;
   text-align: center;
 }
 h2 {
   font-size: 36px; 
-  color: #eaf0c3;
+  color: #5D7025;
   margin: 0;
 }
 
@@ -64,7 +67,7 @@ h3 {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #8292b0;
+  background-color: #142c0c;
   overflow-x: hidden;
   padding-top: 16px;
   margin-top: 300px; 
